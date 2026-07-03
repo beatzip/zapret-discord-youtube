@@ -1,0 +1,7 @@
+  outbound and ip and
+  udp.DstPort>=10000 and
+  udp.PayloadLength=512 and
+  udp.Payload32[0]=0x2010000d and
+  udp.Payload32[4]=0x00200C00 and
+  udp.Payload32[5]=0 and
+  udp.Payload32[6]=0
